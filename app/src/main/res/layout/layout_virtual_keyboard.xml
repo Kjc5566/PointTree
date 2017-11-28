@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    >
+
+    <!-- 输入键盘 -->
+    <GridView
+        android:id="@+id/gv_keyboard"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#bdbdbd"
+        android:horizontalSpacing="1dp"
+        android:numColumns="3"
+        android:verticalSpacing="1dp"
+        />
+</RelativeLayout>
